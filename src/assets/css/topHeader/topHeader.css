@@ -1,0 +1,12 @@
+div.top-header {
+    display: flex;
+    width: 1129px;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

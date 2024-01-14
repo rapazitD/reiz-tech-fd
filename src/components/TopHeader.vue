@@ -1,18 +1,16 @@
 <script setup lang="ts">
-
+import "/src/assets/css/topHeader/topHeader.css"
 import SearchBar from "./SearchBar.vue";
 import Notification from "./Notification.vue";
 import ProfileAvatar from "./ProfileAvatar.vue";
 </script>
 
 <template>
-  <div style="display: flex;
-width: 1129px;
-justify-content: space-between;
-align-items: center;">
+  <div class="top-header">
     <SearchBar/>
-    <Notification/>
-    <ProfileAvatar/>
+    <div>
+      <Notification/>
+      <ProfileAvatar/>
+    </div>
   </div>
-
 </template>
