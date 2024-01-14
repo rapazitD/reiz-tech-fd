@@ -1,0 +1,13 @@
+div.avatar {
+    width: 52px;
+    height: 52px;
+    background: lightgray 50% / cover no-repeat;
+
+    img {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 10px;
+    }
+
+}

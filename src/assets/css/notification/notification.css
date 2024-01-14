@@ -1,0 +1,19 @@
+div.notification {
+    width: 52px;
+    height: 52px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.ring-bell {
+    width: 24px;
+    height: 24px;
+    margin: 14px;
+}
+
+.active {
+    position: absolute;
+    left: 47px;
+    bottom: 45.1px;
+}
