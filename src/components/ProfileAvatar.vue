@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import '/src/assets/css/avatar/avatar.css'
+
 </script>
 
 <template>
@@ -8,3 +8,16 @@
   </div>
 
 </template>
+
+<style scoped>
+  div.avatar {
+    width: 52px;
+    height: 52px;
+
+    img {
+      width: 52px;
+      height: 52px;
+      border-radius: 10px;
+    }
+  }
+</style>

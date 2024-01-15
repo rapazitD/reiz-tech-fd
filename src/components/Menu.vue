@@ -5,7 +5,9 @@ import { menuItems } from "/src/assets/menuItems.ts"
 
 <template>
   <div class="menu">
-    <div v-for="item in menuItems" :key="item.id" class="menu-item">
+    <div v-for="item in menuItems"
+         :key="item.id"
+         class="menu-item">
       <Icon :src="item.iconPath" :alt="item.alt"/>
       <span> {{ item.label }} </span>
     </div>
@@ -18,7 +20,7 @@ import { menuItems } from "/src/assets/menuItems.ts"
     flex-direction: column;
     align-items: flex-start;
     gap: 41px;
-    margin-left: 41px;
+    padding-left: 41px;
     margin-top: 65px;
 
     div:first-child {

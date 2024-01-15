@@ -3,19 +3,26 @@ defineProps<{ name: string }>()
 </script>
 
 <template>
-  <div style="width: 266px;
-            height: 90px;"
-  >
-    <p style="font-size: 16px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: normal;">{{name}}</p>
+  <div>
+    <p>{{name}}</p>
     <input type="text" placeholder="Search">
   </div>
 
 </template>
 
 <style scoped>
+div {
+  width: 266px;
+  height: 90px;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 input {
   margin-top: 16px;
   height: 50px;
